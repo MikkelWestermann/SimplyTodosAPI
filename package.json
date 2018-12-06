@@ -2,7 +2,7 @@
   "name": "smartbrainapi",
   "version": "1.0.0",
   "description": "Back-end for the SmartBrain app",
-  "main": "server.js",
+  "main": "script.js",
   "scripts": {
     "start": "node server.js"
   },
