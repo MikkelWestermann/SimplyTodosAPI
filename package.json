@@ -2,16 +2,15 @@
   "name": "smartbrainapi",
   "version": "1.0.0",
   "description": "Back-end for the SmartBrain app",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon"
   },
   "author": "Mikkel",
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
-    "clarifai": "^2.9.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "knex": "^0.15.2",
