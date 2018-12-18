@@ -16,10 +16,8 @@ const getters = require('./getters');
 const db = knex({
   client: 'pg',
   connection: {
-    host: '127.0.0.1',
-    user: 'mikkelwestermann',
-    password: '',
-    database: 'simply-todos'
+    connectionString: process.env.DATABASE_URL,
+    ssl: true
   }
 })
 
